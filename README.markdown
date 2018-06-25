@@ -27,6 +27,15 @@ List AWS Elasticsearch PRE Backups (snapshots)
 }
 ```
 
+List AWS Elasticsearch PROD Backups (snapshots)
+
+```json
+{
+  "host": "https://search-pulpo-elasticsearch-prod-t7zkxvse3iizvi3i6rgckxv5ee.us-east-1.es.amazonaws.com/",
+  "bucket": "us-east-1-pulpo-elasticsearch-prod-backup"
+}
+```
+
 Reference:
 
 [Elasticsearch cat api](https://www.elastic.co/guide/en/elasticsearch/reference/current/cat.html#cat)
